@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+  <form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Moffitt Elementary - Office Referral Form</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="time">Time</label>  
+  <div class="col-md-4">
+  <input id="time" name="time" type="text" placeholder="Time" class="form-control input-md" required="">
+    
+  </div>
+</div>
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="date">Date</label>  
+  <div class="col-md-4">
+  <input id="date" name="date" type="text" placeholder="Date" class="form-control input-md" required="">
+    
+  </div>
+</div>
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="lastName">Last Name</label>  
+  <div class="col-md-4">
+  <input id="lastName" name="lastName" type="text" placeholder="Last Name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="firstName">First Name</label>  
+  <div class="col-md-4">
+  <input id="firstName" name="firstName" type="text" placeholder="First Name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+<br>
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="gender">Gender</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="gender-0">
+      <input type="radio" name="gender" id="gender-0" value="Male" checked="checked">
+      Male
+    </label>
+	</div>
+  <div class="radio">
+    <label for="gender-1">
+      <input type="radio" name="gender" id="gender-1" value="Female">
+      Female
+    </label>
+	</div>
+  </div>
+</div>
+<br>
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="grade">Grade</label>
+  <div class="col-md-4">
+    <select id="grade" name="grade" class="form-control">
+      <option value="K">K</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+  </div>
+</div>
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="teacher">Teacher</label>  
+  <div class="col-md-4">
+  <input id="teacher" name="teacher" type="text" placeholder="Teacher" class="form-control input-md" required="">
+    
+  </div>
+</div>
+<br>
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="majorProblemBehavior">Major Problem Behavior</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="majorProblemBehavior-0">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-0" value="Possession of a weapon">
+      Possession of a weapon
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-1">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-1" value="Threats to bringing/using weapons">
+      Threats to bringing/using weapons
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-2">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-2" value="Possession/use of imitation weapons">
+      Possession/use of imitation weapons
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-3">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-3" value="Fighting/physical assault">
+      Fighting/physical assault
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-4">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-4" value="Harassment/intimidation">
+      Harassment/intimidation
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-5">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-5" value="Sexual harassment/sexual offense">
+      Sexual harassment/sexual offense
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-6">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-6" value="Theft/burglary">
+      Theft/burglary
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-7">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-7" value="Verbal abuse and/or threat of violence">
+      Verbal abuse and/or threat of violence
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-8">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-8" value="Vandalism/property damage">
+      Vandalism/property damage
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-9">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-9" value="Eloping/cutting class">
+      Eloping/cutting class
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-10">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-10" value="Possession/distribution/use of controlled substance, tobacco, or alcohol">
+      Possession/distribution/use of controlled substance, tobacco, or alcohol
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-11">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-11" value="Possession of drug paraphernalia">
+      Possession of drug paraphernalia
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="majorProblemBehavior-12">
+      <input type="checkbox" name="majorProblemBehavior" id="majorProblemBehavior-12" value="Foul language at a staff member">
+      Foul language at a staff member
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Prepended text-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prependedtext"></label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">Chronic violation of minor behavior (please note behavior and frequency)</span>
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="Note" type="text">
+    </div>
+    
+  </div>
+</div>
+<br>
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="possibleMotivation">Possible Motivation</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="possibleMotivation-0">
+      <input type="checkbox" name="possibleMotivation" id="possibleMotivation-0" value="Obtain peer attention">
+      Obtain peer attention
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="possibleMotivation-1">
+      <input type="checkbox" name="possibleMotivation" id="possibleMotivation-1" value="Obtain adult attention">
+      Obtain adult attention
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="possibleMotivation-2">
+      <input type="checkbox" name="possibleMotivation" id="possibleMotivation-2" value="Obtain items/activities">
+      Obtain items/activities
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="possibleMotivation-3">
+      <input type="checkbox" name="possibleMotivation" id="possibleMotivation-3" value="Avoid peer(s)">
+      Avoid peer(s)
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="possibleMotivation-4">
+      <input type="checkbox" name="possibleMotivation" id="possibleMotivation-4" value="Avoid adult">
+      Avoid adult
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="possibleMotivation-5">
+      <input type="checkbox" name="possibleMotivation" id="possibleMotivation-5" value="Avoid task or activity">
+      Avoid task or activity
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="possibleMotivation-6">
+      <input type="checkbox" name="possibleMotivation" id="possibleMotivation-6" value="Don't know">
+      Don't know
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="possibleMotivation-7">
+      <input type="checkbox" name="possibleMotivation" id="possibleMotivation-7" value="Other">
+      Other
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prependedcheckbox"></label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">     
+          <input type="checkbox">     
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="form-control" type="text" placeholder="Other">
+    </div>
+    
+  </div>
+</div>
+<br>
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="preventiveStrategiesUsed">Preventive Strategies Used</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="preventiveStrategiesUsed-0">
+      <input type="checkbox" name="preventiveStrategiesUsed" id="preventiveStrategiesUsed-0" value="Precorrection">
+      Precorrection
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="preventiveStrategiesUsed-1">
+      <input type="checkbox" name="preventiveStrategiesUsed" id="preventiveStrategiesUsed-1" value="5 to 1 positive to negative feedback">
+      5 to 1 positive to negative feedback
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="preventiveStrategiesUsed-2">
+      <input type="checkbox" name="preventiveStrategiesUsed" id="preventiveStrategiesUsed-2" value="PBIS expectation stations">
+      PBIS expectation stations
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="preventiveStrategiesUsed-3">
+      <input type="checkbox" name="preventiveStrategiesUsed" id="preventiveStrategiesUsed-3" value="Teach, model and review classroom behavior expectations">
+      Teach, model and review classroom behavior expectations
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="preventiveStrategiesUsed-4">
+      <input type="checkbox" name="preventiveStrategiesUsed" id="preventiveStrategiesUsed-4" value="Weekly Second Step lessons">
+      Weekly Second Step lessons
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="preventiveStrategiesUsed-5">
+      <input type="checkbox" name="preventiveStrategiesUsed" id="preventiveStrategiesUsed-5" value="Other">
+      Other
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prependedcheckbox"></label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">     
+          <input type="checkbox">     
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="form-control" type="text" placeholder="Other">
+    </div>
+    
+  </div>
+</div>
+<br>
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="reactiveStrategiesUsed">Reactive Strategies Used</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="reactiveStrategiesUsed-0">
+      <input type="checkbox" name="reactiveStrategiesUsed" id="reactiveStrategiesUsed-0" value="Proximity control">
+      Proximity control
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="reactiveStrategiesUsed-1">
+      <input type="checkbox" name="reactiveStrategiesUsed" id="reactiveStrategiesUsed-1" value="Redirection strategies">
+      Redirection strategies
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="reactiveStrategiesUsed-2">
+      <input type="checkbox" name="reactiveStrategiesUsed" id="reactiveStrategiesUsed-2" value="Reinforce peers who are engaging in desired behavior">
+      Reinforce peers who are engaging in desired behavior
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="reactiveStrategiesUsed-3">
+      <input type="checkbox" name="reactiveStrategiesUsed" id="reactiveStrategiesUsed-3" value="Private verbal prompt">
+      Private verbal prompt
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="reactiveStrategiesUsed-4">
+      <input type="checkbox" name="reactiveStrategiesUsed" id="reactiveStrategiesUsed-4" value="Teaching interaction with empathy statement">
+      Teaching interaction with empathy statement
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="reactiveStrategiesUsed-5">
+      <input type="checkbox" name="reactiveStrategiesUsed" id="reactiveStrategiesUsed-5" value="Think time and/or think sheet">
+      Think time and/or think sheet
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="reactiveStrategiesUsed-6">
+      <input type="checkbox" name="reactiveStrategiesUsed" id="reactiveStrategiesUsed-6" value="Other">
+      Other
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prependedcheckbox"></label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">     
+          <input type="checkbox">     
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="form-control" type="text" placeholder="Other">
+    </div>
+    
+  </div>
+</div>
+<br>
+<h3>Administrative Responses</h3>
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="disciplinaryActions">Disciplinary Action(s)</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="disciplinaryActions-0">
+      <input type="checkbox" name="disciplinaryActions" id="disciplinaryActions-0" value="Conference with student">
+      Conference with student
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="disciplinaryActions-1">
+      <input type="checkbox" name="disciplinaryActions" id="disciplinaryActions-1" value="Student assigned to Time Out">
+      Student assigned to Time Out
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="disciplinaryActions-2">
+      <input type="checkbox" name="disciplinaryActions" id="disciplinaryActions-2" value="Loss of priviledge">
+      Loss of priviledge
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="disciplinaryActions-3">
+      <input type="checkbox" name="disciplinaryActions" id="disciplinaryActions-3" value="Contribution plan to make good on the situation">
+      Contribution plan to make good on the situation
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="disciplinaryActions-4">
+      <input type="checkbox" name="disciplinaryActions" id="disciplinaryActions-4" value="Parent contact and/or conference">
+      Parent contact and/or conference
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="disciplinaryActions-5">
+      <input type="checkbox" name="disciplinaryActions" id="disciplinaryActions-5" value="Student assigned to community service">
+      Student assigned to community service
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="disciplinaryActions-6">
+      <input type="checkbox" name="disciplinaryActions" id="disciplinaryActions-6" value="Suspension">
+      Suspension
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="disciplinaryActions-7">
+      <input type="checkbox" name="disciplinaryActions" id="disciplinaryActions-7" value="Other">
+      Other
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Prepended checkbox -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prependedcheckbox"></label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">     
+          <input type="checkbox">     
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="form-control" type="text" placeholder="Other">
+    </div>
+    
+  </div>
+</div>
+<br>
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="solutions">Solutions</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="solutions-0">
+      <input type="checkbox" name="solutions" id="solutions-0" value="Individualized instruction to teach student replacement behaviors">
+      Individualized instruction to teach student replacement behaviors
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="solutions-1">
+      <input type="checkbox" name="solutions" id="solutions-1" value="Modifying aspects fo the curriculum and/or environment">
+      Modifying aspects fo the curriculum and/or environment
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="solutions-2">
+      <input type="checkbox" name="solutions" id="solutions-2" value="Relationship building to enhance senses of belonging and connection in the classroom">
+      Relationship building to enhance senses of belonging and connection in the classroom
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="solutions-3">
+      <input type="checkbox" name="solutions" id="solutions-3" value="Behavior contract">
+      Behavior contract
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Prepended text-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prependedtext">Restorative Practice by Adult Issued Referral</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">Day/Time of restorative communication</span>
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="Date/Time" type="text">
+    </div>
+    
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes"></label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="Letting go (do over)">
+      Letting go (do over)
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="Taking ownership for part of the problem">
+      Taking ownership for part of the problem
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-2">
+      <input type="checkbox" name="checkboxes" id="checkboxes-2" value="Empathy Statement">
+      Empathy Statement
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-3">
+      <input type="checkbox" name="checkboxes" id="checkboxes-3" value="Statement of care">
+      Statement of care
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-4">
+      <input type="checkbox" name="checkboxes" id="checkboxes-4" value="Collaborative problem-solving to identify a mutally agreed upon solution">
+      Collaborative problem-solving to identify a mutally agreed upon solution
+    </label>
+	</div>
+  </div>
+</div>
+<br>
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+<br>
+</fieldset>
+</form>
+
+  <script src="index.js"></script>
+  </body>
+  </html>
